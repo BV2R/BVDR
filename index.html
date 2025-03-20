@@ -3,46 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site GitHub Pages</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            padding: 15px;
-            font-size: 24px;
-        }
-        section {
-            padding: 20px;
-        }
-        footer {
-            margin-top: 20px;
-            background-color: #007bff;
-            color: white;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Portfolio - Mon Nom</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        Bienvenue sur mon site GitHub Pages
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Je suis <strong>Ton Nom</strong>, un passionné de cybersécurité et développement.</p>
     </header>
 
-    <section>
-        <h1>Salut !</h1>
-        <p>Ceci est une page HTML hébergée sur GitHub Pages.</p>
-        <p>Vous pouvez modifier ce fichier et le personnaliser selon vos besoins.</p>
+    <nav>
+        <ul>
+            <li><a href="#about">À Propos</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>À Propos de Moi</h2>
+        <p>Je suis un analyste SOC avec une expertise en investigation et réponse aux incidents. Passionné par la cybersécurité, je travaille sur des projets variés.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="project">
+            <h3>Projet 1 : Détection de Menaces</h3>
+            <p>Développement d’un playbook Sekoia.io pour automatiser l'ajout d'IP malveillantes en blacklist.</p>
+        </div>
+        <div class="project">
+            <h3>Projet 2 : Site Web RQMS Service</h3>
+            <p>Création d’un site vitrine pour mon entreprise de nettoyage sous WordPress.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>📧 Email : <a href="mailto:tonemail@example.com">tonemail@example.com</a></p>
+        <p>🔗 LinkedIn : <a href="https://linkedin.com/in/tonprofil" target="_blank">Mon LinkedIn</a></p>
     </section>
 
     <footer>
-        © 
+        <p>© 2025 - Ton Nom | Portfolio</p>
+    </footer>
+
+</body>
+</html>
